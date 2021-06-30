@@ -32,7 +32,7 @@ Predicting binary masks is a common task in modern deep learning. There are plen
 of tools that allow the annotation, such as [LabelMe](https://github.com/wkentaro/labelme) [@labelme2016] and [DiffGram](https://github.com/diffgram/diffgram).
 However, many of these tools are focusing on annotation completeness and
 are not optimized to a specific problem, such as the fast generation of binary masks
-of large, continuous files, such as videos.
+of large, continuous files, such as videos. They further use adjustable polygonal structures, whereas `pipra` directly annotates single pixels.
 
 With `pipra`, we focus on the efficient generation of binary masks with 
 maximum interoperability. We also ensure a low threshold to use the software,
@@ -63,7 +63,7 @@ but can be easily exported from the graphical user interface to `tif` and `mp4` 
 
 `pipra` has been already successfully applied in several biomedical image segmentation tasks to allow
 the segmentation of the glottal area in high-speed videoendoscopy footage [@gomez:2020;@kist:2021]
-or the segmentation of cerebellar Purkinje cells in confocal stacks [@markov:2020]. Currently, it is used to label dendritic spines and vocal folds.
+or the segmentation of cerebellar Purkinje cells in confocal stacks [@markov:2020]. Currently, it is used to label dendritic spines and vocal folds (unpublished data).
 
 # Acknowledgements
 
