@@ -53,7 +53,7 @@ high annotation speeds:
   - GrabCut
 
 
-![Labelling modalities in pipra. a) Brush, b) Outline, c) Floodfill.\label{fig:modalities}](modalities-01.png)
+![Labelling modalities in pipra. a) Brush, b) Outline, c) Floodfill, d) GrabCut. \label{fig:modalities}](modalities-01.png)
 
 In general, `pipra` is intended for time variant data, such as videos, or z-stacks, such as
 microscopy stacks at different positions in `z`. In addition, `pipra` also provides a folder mode
@@ -67,7 +67,7 @@ or the segmentation of cerebellar Purkinje cells in confocal stacks [@markov:202
 
 # Acknowledgements
 
-We acknowledge contributions from Pablo Gómez and Martin Fernholz on this project for testing and improving it.
+We acknowledge contributions from Pablo Gómez and Martin Fernholz for constructive feedback to improve `pipra`.
 
 # References
 
